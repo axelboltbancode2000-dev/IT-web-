@@ -1,0 +1,143 @@
+.wrapper{
+}
+/* Налаштування адаптиву */
+[class*="__container"] {
+	max-width: 52.5rem; /* Обмежуючий + відступи */
+	padding-left: 0.9375rem;
+	padding-right: 0.9375rem;
+	margin: 0 auto;
+}
+header{
+    width: 100%;
+    height: 70px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.main{
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+    min-height: 80vh;
+}
+.main__container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    max-width: 60rem; /* Обмежуючий + відступи */
+	padding-left: 0.9575rem;
+	padding-right: 0.9575rem;
+	margin: 0 auto;
+}
+.main__img img{
+    width: 500px;
+}
+.main__menu{
+    justify-content: left;
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;             
+    border-radius: 8px;  
+}
+.logo{
+    height: 160px;
+    width: auto;
+}
+.main__menu a{
+    margin-left: auto;
+    background-color: rgb(253, 253, 253);
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+    border-radius: 40px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;       
+    padding-bottom: 4px;         
+    position: relative; 
+    
+}
+
+main{
+    text-align: center;
+
+}
+nav{
+    margin-right: 195px;
+}
+
+.main p{
+    color: rgb(0, 0, 0);
+}
+.main h2{
+    color: rgb(0, 0, 0);
+}
+footer{
+    background-color: #343a40;
+    width: 100%;
+    padding: 20px 30px;
+}
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.title h3 {
+    font-family: "Gasoek One", sans-serif;
+}
+.main__menu a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;                   
+    height: 2px;  
+    transition: width 0.3s ease;
+    background-color: #389df0;
+}
+.main__menu a:hover::after {
+    width: 100%;                 
+}
+
+
+body {
+    font-family: "Rubik", sans-serif;
+}
+.hero__buttons{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    justify-content: center;
+    margin-top: 32px;
+    transition: 0.3s ease;
+}
+.hero__buttons:hover {
+  transform: scale(1.05);
+}
+.btn__primary {
+    padding: 18px;
+    background-color: orangered;
+    border-radius: 125px;
+    background: #ff5a1f;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(255, 69, 0, 0.45),
+              0 4px 10px rgba(255, 0, 0, 0.25);
+
+}
+@media (max-width: 768px) {
+    .__container {
+        width: 100%;
+        padding: 0 20px;
+    }
+}
+.p2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
